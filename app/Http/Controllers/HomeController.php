@@ -25,4 +25,13 @@ class HomeController extends Controller
     {
         return view('home');
     }
+
+    public function testMethod()
+    {
+        return view('blog.test-view');
+    }
+    public function aboutMethod()
+    {
+        return view('blog.about');
+    }
 }
