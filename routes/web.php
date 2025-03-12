@@ -32,3 +32,4 @@ Route::get('/test', [HomeController::class, 'testMethod'])->name('test-route');
 
 Route::get('/about', [HomeController::class, 'aboutMethod'])->name('about-route');
 
+Route::get('/contact', [HomeController::class, 'contactMethod'])->name('contact-route');

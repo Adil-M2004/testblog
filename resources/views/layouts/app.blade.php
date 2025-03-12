@@ -43,6 +43,8 @@
                     @endguest
                     <a href="{{ route('test-route') }}">Create Blog</a>
                     <a href="{{ route('about-route') }}">About</a>
+                    <a href="{{ route('contact-route') }}">Contact</a>
+
                 </nav>
             </div>
         </header>
