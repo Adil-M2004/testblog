@@ -6,3 +6,6 @@
         <p>Welcome to our cooking blog! Here, we share our passion for cooking and provide you with delicious recipes, cooking tips, and culinary inspiration. Whether you're a seasoned chef or just starting out in the kitchen, we have something for everyone. Join us on this culinary journey and discover the joy of cooking!</p>
     </div>
 @endsection
+
+
+
