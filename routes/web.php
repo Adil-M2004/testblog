@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PagesController;
 use App\Http\Controllers\PostsController;
 use \App\Http\Controllers\HomeController;
+use App\Http\Controllers\CommentController;
 
 /*
 |--------------------------------------------------------------------------
@@ -33,3 +34,5 @@ Route::get('/test', [HomeController::class, 'testMethod'])->name('test-route');
 Route::get('/about', [HomeController::class, 'aboutMethod'])->name('about-route');
 
 Route::get('/contact', [HomeController::class, 'contactMethod'])->name('contact-route');
+
+Route::post('/posts/{post}/comments', [CommentController::class, 'store'])->name('comments.store');
