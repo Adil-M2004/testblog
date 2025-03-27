@@ -41,3 +41,5 @@ Route::post('/posts/{post}/comments', [CommentController::class, 'store'])->name
 Route::get('/auth/google', [GoogleController::class, 'googlepage']);
 
 Route::get('/auth/google/callback', [GoogleController::class, 'googlecallback']);
+
+Route::get('/authors', function () { return view('authors'); })->name('authors');
