@@ -36,7 +36,7 @@
 
             <a
                 href="/blog"
-                class="uppercase bg-blue-500 text-gray-100 text-s font-extrabold py-3 px-8 rounded-3xl">
+                class="uppercase bg-blue-500 text-black-100 text-s font-extrabold py-3 px-8 ">
                 Find Out More
             </a>
         </div>
