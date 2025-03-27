@@ -45,6 +45,7 @@
                     <a href="{{ url('/blog') }}">Blogs</a>
                     <a href="{{ route('about-route') }}">About</a>
                     <a href="{{ route('contact-route') }}">Contact</a>
+                    <a href="{{ route('authors') }}">Authors</a>
 
                 </nav>
             </div>
