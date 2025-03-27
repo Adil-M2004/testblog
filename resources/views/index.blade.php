@@ -42,6 +42,22 @@
         </div>
     </div>
 
+    <div class="w-4/5 mx-auto py-15 border-b border-gray-200">
+        @if ($latestPost)
+            <h2 class="text-4xl font-bold text-gray-800">
+                Latest Blog: {{ $latestPost->title }}
+            </h2>
+            <p class="text-gray-600 text-lg py-4">
+                {{ Str::limit($latestPost->description, 500) }} <!-- Limit description to 150 characters -->
+            </p>
+            <a href="/blog/{{ $latestPost->slug }}" class="text-blue-500 hover:underline">
+                Read More
+            </a>
+        @else
+            <p class="text-gray-600">No blog posts available.</p>
+        @endif
+    </div>
+
     <div class="text-center p-15 bg-black text-white">
         <h2 class="text-2xl pb-5 text-l">
            Created By
@@ -52,8 +68,5 @@
         </span>
 
     </div>
-
-
-
 
 @endsection
