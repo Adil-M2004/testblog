@@ -38,4 +38,8 @@ class HomeController extends Controller
     {
         return view('blog.contact');
     }
+    public function authorMethod()
+    {
+        return view('blog.authors');
+    }
 }
