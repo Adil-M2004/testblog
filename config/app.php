@@ -123,6 +123,9 @@ return [
 
     'cipher' => 'AES-256-CBC',
 
+    /*SocialLite GOOGLE LOGIN */
+
+    'Socialite' => Laravel\Socialite\Facades\Socialite::class,
     /*
     |--------------------------------------------------------------------------
     | Autoloaded Service Providers
@@ -133,6 +136,8 @@ return [
     | this array to grant expanded functionality to your applications.
     |
     */
+
+
 
     'providers' => [
 

@@ -75,6 +75,13 @@
                         </p>
                         @endif
                     </div>
+
+                    <div class="flex justify-center mt-4">
+                        <a class="w-full text-center font-bold whitespace-no-wrap p-3 rounded-lg text-base leading-normal no-underline text-gray-100 bg-blue-500 hover:bg-blue-700 sm:py-4"
+                            href="{{ url('auth/google') }}">
+                            {{ __('Login with Google') }}
+                        </a>
+                    </div>
                 </form>
 
             </section>

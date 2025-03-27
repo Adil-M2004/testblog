@@ -5,6 +5,7 @@ use App\Http\Controllers\PagesController;
 use App\Http\Controllers\PostsController;
 use \App\Http\Controllers\HomeController;
 use App\Http\Controllers\CommentController;
+use App\Http\Controllers\GoogleController;
 
 /*
 |--------------------------------------------------------------------------
@@ -36,3 +37,7 @@ Route::get('/about', [HomeController::class, 'aboutMethod'])->name('about-route'
 Route::get('/contact', [HomeController::class, 'contactMethod'])->name('contact-route');
 
 Route::post('/posts/{post}/comments', [CommentController::class, 'store'])->name('comments.store');
+
+Route::get('/auth/google', [GoogleController::class, 'googlepage']);
+
+Route::get('/auth/google/callback', [GoogleController::class, 'googlecallback']);
