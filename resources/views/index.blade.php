@@ -41,7 +41,7 @@
             </a>
         </div>
     </div>
-
+<!-- Latest Blogs -->
     <div class="w-4/5 mx-auto py-15 border-b border-gray-200">
         @if ($latestPost)
             <h2 class="text-4xl font-bold text-gray-800">
